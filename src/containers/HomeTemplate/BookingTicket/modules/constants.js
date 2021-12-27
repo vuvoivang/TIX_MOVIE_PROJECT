@@ -1,0 +1,8 @@
+export const FETCH_ROOM_LIST_REQUEST = "roomReducer/FETCH_ROOM_LIST_REQUEST";
+export const FETCH_ROOM_LIST_SUCCESS = "roomReducer/FETCH_ROOM_LIST_SUCCESS";
+export const FETCH_ROOM_LIST_FAILED = "roomReducer/FETCH_ROOM_LIST_FAILED";
+
+export const BOOK_TICKET_REQUEST = "roomReducer/BOOK_TICKET_REQUEST";
+export const BOOK_TICKET_SUCCESS = "roomReducer/BOOK_TICKET_SUCCESS";
+export const BOOK_TICKET_FAILED = "roomReducer/BOOK_TICKET_FAILED";
+

@@ -1,0 +1,161 @@
+.news .container .hide {
+  display: none;
+}
+
+.news .container .tab-nav {
+  padding-top: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.news .container .tab-nav .nav-item {
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 24px;
+  height: 24px;
+  transition: all 0.2s;
+}
+
+.news .container .tab-nav .nav-item:hover,
+.news .container .tab-nav .nav-item .nav-link.active {
+  font-size: 24px;
+  color: red;
+}
+
+.news .container .tab-nav .nav-item .nav-link {
+  color: #000000;
+  background-color: transparent;
+  font-weight: 500;
+}
+
+.news .container .col-6-new {
+  margin-bottom: 20px;
+  padding-right: 0;
+}
+
+.news .container .col-6-new .img-thumb img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.news .container .col-6-new .header-thumb:hover,
+.news .container .col-6-new .header-thumb:hover h3 {
+  color: red;
+  text-decoration: none;
+}
+
+.news .container .col-6-new .header-thumb h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  height: 50px;
+  font-size: 16px;
+  color: #000000;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.news .container .col-6-new p {
+  text-align: justify;
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: "SF Regular";
+  padding: 0 5px 0 0;
+  line-height: 19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 55px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.news .container .col-6-new .icon-fb-thumb {
+  height: 25px;
+  font-size: 12px;
+  display: flex;
+}
+
+.news .container .col-6-new .icon-fb-thumb .icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.news .container .col-6-new .icon-fb-thumb .icon img {
+  height: 100%;
+  margin-right: 8px;
+}
+
+.news .container .col-6-new .icon-fb-thumb .icon span {
+  color: #bbb;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.news .container .col-12-new a {
+  display: flex;
+}
+
+.news .container .col-12-new a img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.news .container .col-12-new a:hover,
+.news .container .col-12-new a:hover p {
+  color: red;
+  text-decoration: none;
+}
+
+.news .container .col-12-new a p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #000000;
+  font-size: 17px;
+  opacity: 0.9;
+  width: calc(100% - 70px);
+  height: 45px;
+  font-family: "SF Regular";
+  transition: color 0.2s;
+}
+
+.news .container .more {
+  font-size: 14px;
+  color: #949494;
+  font-family: "SF Regular";
+  border: 1px solid #949494;
+  border-radius: 4px;
+  text-align: center;
+  background: 0 0;
+  padding: 7px 25px;
+  transition: all 0.2s;
+  margin-left: 10px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 400;
+}
+
+.news .container .more:hover {
+  color: white;
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .news .container .nav-news {
+    margin: 0 5px;
+    width: 100%;
+  }
+  .news .container .tab-content {
+    width: 100%;
+  }
+}

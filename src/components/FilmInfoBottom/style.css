@@ -1,0 +1,408 @@
+.detailFilmBottom {
+  background-color: rgb(10, 32, 41);
+  height: 100%;
+}
+.detailMain {
+  transform: translate(0, -70px);
+  background-color: rgb(10, 32, 41);
+  color: white;
+  float: none;
+  margin: auto;
+  clear: both;
+}
+.detailMain .navCenter {
+  text-align: center;
+  border: none;
+}
+.detailMain .container .tab-nav {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.detailMain .container .tab-nav .nav-item {
+  background-color: transparent;
+  font-size: 20px;
+  /* line-height: 24px;
+  height: 24px; */
+  transition: all 0.2s;
+}
+
+.detailMain .container .tab-nav .nav-item:hover,
+.detailMain .container .tab-nav .nav-item .nav-link.active {
+  font-size: 24px;
+  color: red;
+}
+
+.detailMain .container .tab-nav .nav-item .nav-link {
+  color: #fff;
+  background-color: transparent;
+  font-weight: 500;
+}
+
+.detailMain .container .col-6-new {
+  margin-bottom: 20px;
+  padding-right: 0;
+}
+
+.detailMain .container .col-6-new .img-thumb img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.detailMain .container .col-6-new .header-thumb:hover,
+.detailMain .container .col-6-new .header-thumb:hover h3 {
+  color: red;
+  text-decoration: none;
+}
+.detailMain .film {
+  padding: 0 7px;
+  margin-bottom: 15px;
+}
+.detailMain .rowLeftInfo {
+  margin-bottom: 10px;
+}
+.detailMain .contentTitle {
+  width: 35%;
+  float: left;
+  font-size: 16px;
+  font-family: "SF Medium";
+}
+.detailMain .contentInfo {
+  width: 40%;
+  float: left;
+  font-size: 16px;
+}
+.detailMain .right {
+  padding-left: 10px !important;
+  margin-bottom: 0;
+}
+
+#detailReviewer {
+  max-width: 810px;
+  margin: auto;
+}
+.detailMain .detailMainStyle {
+  margin-top: 40px;
+}
+#detailReviewer .dadInputReviewer.newDesign {
+  max-width: 580px;
+  margin: 0 calc(50% - 290px);
+  padding: 0;
+}
+#detailReviewer .dadInputReviewer {
+  position: relative;
+  cursor: pointer;
+}
+#detailReviewer .imgReviewer {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+#detailReviewer .dadInputReviewer * {
+  pointer-events: none;
+}
+#detailReviewer .imgReviewer img {
+  height: 36px;
+  width: 36px;
+  border-radius: 25px;
+}
+#detailReviewer .inputReviwer {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px 10px 10px 55px;
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e9;
+  background: #fff;
+  color: #9b9b9b;
+  font-size: 14px;
+}
+#detailReviewer .dadInputReviewer * {
+  pointer-events: none;
+}
+#detailReviewer .imgReviewerStar img {
+  height: 24px;
+  width: auto;
+}
+#detailReviewer .imgReviewerStar {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+#detailReviewer .infoStar .star img {
+  max-width: 8px;
+  height: auto;
+}
+
+#detailReviewer .reviewerContain {
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  border-radius: 3px;
+  margin: 15px calc(50% - 290px) 0;
+  background-color: #fff;
+  max-width: 580px;
+}
+
+#detailReviewer .reviewerContain .dadCommentReviewer {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 20px 20px 12px;
+  border-bottom: 1px solid #e6e6e6;
+}
+#detailReviewer .reviewerContain .dadCommentReviewer .dadMainInfo {
+  margin: 0;
+  clear: both;
+  display: block;
+  height: 42.4px;
+}
+
+#detailReviewer .infoReviewer {
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#detailReviewer
+  .reviewerContain
+  .dadCommentReviewer
+  .dadMainInfo
+  .infoReviewerIcon {
+  float: left;
+}
+#detailReviewer .infoReviewerIcon {
+  display: inline-block;
+  position: relative;
+}
+#detailReviewer .infoReviewerIcon img {
+  height: 32px;
+  width: 32px;
+  border-radius: 25px;
+}
+#detailReviewer .ZaloFBIcon {
+  position: absolute;
+  height: 18px !important;
+  width: auto;
+  right: -30%;
+  bottom: 0;
+}
+
+#detailReviewer
+  .reviewerContain
+  .dadCommentReviewer
+  .dadMainInfo
+  .infoReviewerName {
+  margin-left: 10px;
+  color: #000;
+}
+.detailMain.dark .infoReviewerName {
+  color: #fff;
+}
+#detailReviewer .infoReviewerName {
+  font-family: "SF Medium";
+  margin-left: 15px;
+  font-size: 14px;
+  color: #000;
+  display: inline-block;
+  height: 32px;
+}
+#detailReviewer .infoReviewerName .infoReviewerTime {
+  font-size: 10px;
+  color: #9b9b9b;
+  line-height: 1;
+}
+#detailReviewer .infoStar .core {
+  color: #91d25a;
+  font-size: 16px;
+  margin: auto;
+}
+#detailReviewer .infoStar .core p {
+  text-align: center;
+  margin-bottom: 0;
+}
+#detailReviewer .infoStar {
+  display: inline-block;
+  float: right;
+}
+#detailReviewer .dadMainComment {
+  position: relative;
+}
+
+#detailReviewer .reviewerContain .dadCommentReviewer .mainComment {
+  background-color: transparent;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #4a4a4a !important;
+  letter-spacing: -0.2px;
+}
+#detailReviewer .mainComment {
+  background-color: #e5eef3;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #4a4a4a !important;
+  letter-spacing: -0.2px;
+  overflow-x: hidden;
+}
+
+#detailReviewer .reviewerContain .dadCommentReviewer .count {
+  padding: 10px 0 0 0;
+  margin-top: 0;
+  border-top: 1px solid #e6e6e6;
+  text-align: left;
+}
+#detailReviewer .reviewerContain .dadCommentReviewer .count .wrapIcon {
+  margin-right: 40px;
+}
+.detailMain .wrapIcon {
+  display: inline-table;
+  margin-right: 25px;
+  float: left;
+}
+.wrapIcon {
+  display: inline-table;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.detailMain .wrapIcon img {
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#detailReviewer .iconFacebook {
+  height: auto;
+  width: 16px;
+}
+.detailMain .iconFacebook {
+  margin-top: 2px;
+  height: auto;
+  width: 16px;
+}
+.wrapIcon .iconFacebook {
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 2px;
+  height: auto;
+  width: 18px;
+  transition: all 0.2s;
+}
+.wrapIcon.like * {
+  pointer-events: none;
+}
+#detailReviewer .reviewerContain .dadCommentReviewer .count .amount {
+  color: #737576 !important;
+}
+.detailMain.dark .wrapIcon .comment,
+.detailMain.dark .wrapIcon .like {
+  color: #fff !important;
+}
+.detailMain.dark .amount {
+  color: #737576;
+}
+.detailMain .amount {
+  font-size: 14px;
+  color: #bbb;
+}
+.wrapIcon .amount {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.wrapIcon.like * {
+  pointer-events: none;
+}
+#detailReviewer .reviewerContain .dadCommentReviewer .count .wrapIcon {
+  margin-right: 40px;
+}
+.detailMain .wrapIcon {
+  display: inline-table;
+  margin-right: 25px;
+  float: left;
+}
+.wrapIcon {
+  display: inline-table;
+  margin-right: 25px;
+  cursor: pointer;
+}
+#detailReviewer .reviewerContain .listReply {
+  width: 100%;
+  float: left;
+  background-color: #f7fcff;
+}
+#detailReviewer .reviewerContain .child:last-child {
+  padding: 15px 20px 15px;
+}
+#detailReviewer .reviewerContain .dadCommentReviewer {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 20px 20px 12px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.detailMain .btnViewMore {
+  font-size: 14px;
+  color: #949494;
+  font-family: "SF Regular";
+  border: 1px solid #949494;
+  border-radius: 4px;
+  text-align: center;
+  background: 0 0;
+  padding: 7px 25px;
+  transition: all 0.2s;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  display: block;
+}
+.detailMain .btnViewMore:hover {
+  color: white;
+  background-color: red;
+}
+.CircularProgressbar-text {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 700px) {
+  .detailMain {
+    transform: none;
+  }
+  .detailMain .container .tab-nav {
+    display: block;
+  }
+  .detailMain .detailMainStyle .row {
+    margin: 0;
+  }
+  .detailMain .detailMainStyle .row.rowLeftInfo {
+    justify-content: center;
+  }
+  .detailMain .film {
+    padding: 0 15px;
+  }
+  #detailReviewer .row.reviewerContain {
+    margin: 15px 0;
+  }
+  #detailReviewer .reviewerContain .dadCommentReviewer {
+    padding: 0px;
+    margin: 20px 0;
+  }
+  #detailReviewer .row {
+    margin: 0;
+  }
+  #detailReviewer .imgReviewerStar img {
+    width: 100px;
+    height: 18px;
+  }
+}

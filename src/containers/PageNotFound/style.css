@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+:root {
+  --blue: #0e0620;
+  --white: #fff;
+  --green: #15685e;
+}
+containerNotFound {
+  margin-top: 2rem !important;
+}
+content {
+  position: absolute;
+  top: 50;
+  left: 50%;
+}
+.btn_1 {
+  z-index: 1;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  padding: 8px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1em;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.btn_1.green {
+  border: 4px solid #15685e;
+  color: black;
+}
+.btn_1.green:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background: #15685e;
+  z-index: -1;
+  transition: 0.2s ease;
+}
+.btn_1.green:hover {
+  color: var(--white);
+  background: #15685e;
+  transition: 0.2s ease;
+}
+.btn_1.green:hover:before {
+  width: 100%;
+}

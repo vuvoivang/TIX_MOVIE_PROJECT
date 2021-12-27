@@ -1,0 +1,105 @@
+#book_ticket .right {
+  position: relative;
+  box-shadow: -5px 0 10px #cccccc;
+  height: 100%;
+}
+
+#book_ticket .right .box {
+  height: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-bottom: 70px;
+}
+
+#book_ticket .right .box::-webkit-scrollbar {
+  display: none;
+}
+
+#book_ticket .right .item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #acacac;
+  padding: 14px 0;
+}
+
+#book_ticket .right .box .item:first-child {
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #00d200;
+}
+
+#book_ticket .right .item p {
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: right;
+}
+
+#book_ticket .right .payment {
+  padding: 15px 0 10px;
+  text-align: left;
+}
+
+#book_ticket .right .payment .MuiFormControlLabel-root {
+  margin-bottom: 0;
+}
+
+#book_ticket .right .pay_option {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#book_ticket .right .pay_option img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#book_ticket .right .pay_submit {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  margin: -54.4px -15px 0 -15px;
+}
+
+#book_ticket .right .pay_submit Button {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 10px 5px;
+  border-radius: 0;
+}
+
+#book_ticket .right .submit {
+  background-color: rgb(0, 210, 0);
+}
+
+#book_ticket .right .submit:hover {
+  background-color: rgb(38, 229, 38);
+}
+
+#book_ticket .right .disabled {
+  background-color: rgb(201, 201, 201) !important;
+}
+
+#book_ticket .right .combo {
+  text-transform: none;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  #book_ticket .right {
+    height: 660px;
+  }
+  #book_ticket .right .box {
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+  #book_ticket .right .pay_submit {
+    margin: 0 -15px;
+  }
+}

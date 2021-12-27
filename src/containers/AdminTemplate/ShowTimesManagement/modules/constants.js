@@ -1,0 +1,23 @@
+export const FETCH_FILM_SHOWTIME_REQUEST =
+  "showtimeReducer/FETCH_FILM_SHOWTIME_REQUEST";
+export const FETCH_FILM_SHOWTIME_SUCCESS =
+  "showtimeReducer/FETCH_FILM_SHOWTIME_SUCCESS";
+export const FETCH_FILM_SHOWTIME_FAILED =
+  "showtimeReducer/FETCH_FILM_SHOWTIME_FAILED";
+export const FETCH_FILM_SHOWTIME_RESET =
+  "showtimeReducer/FETCH_FILM_SHOWTIME_RESET";
+
+export const FETCH_CINEMA_SYSTEM_REQUEST =
+  "cinemaReducer/FETCH_CINEMA_SYSTEM_REQUEST";
+export const FETCH_CINEMA_SYSTEM_SUCCESS =
+  "cinemaReducer/FETCH_CINEMA_SYSTEM_SUCCESS";
+export const FETCH_CINEMA_SYSTEM_FAILED =
+  "cinemaReducer/FETCH_CINEMA_SYSTEM_FAILED";
+
+export const FETCH_CINEMA_REQUEST = "cinemaReducer/FETCH_CINEMA_REQUEST";
+export const FETCH_CINEMA_SUCCESS = "cinemaReducer/FETCH_CINEMA_SUCCESS";
+export const FETCH_CINEMA_FAILED = "cinemaReducer/FETCH_CINEMA_FAILED";
+
+export const ADD_SHOWTIME_REQUEST = "showtimeReducer/ADD_SHOWTIME_REQUEST";
+export const ADD_SHOWTIME_SUCCESS = "showtimeReducer/ADD_SHOWTIME_SUCCESS";
+export const ADD_SHOWTIME_FAILED = "showtimeReducer/ADD_SHOWTIME_FAILED";

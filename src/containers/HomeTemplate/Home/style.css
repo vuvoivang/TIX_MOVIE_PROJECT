@@ -1,0 +1,33 @@
+.home {
+  position: relative;
+}
+
+.home .backtotop {
+  position: fixed;
+  top: 99%;
+  right: 3%;
+  z-index: 999;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.home .backtotop i {
+  color: #ec7532;
+  font-size: 37px;
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #ec7532;
+  line-height: 38px;
+  text-align: center;
+}
+
+.home .eventBackToTop {
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,0 +1,142 @@
+.detailMainTop {
+  position: relative;
+}
+.detailMainTop .styleBlur .posterLandscapeFilm {
+  filter: blur(15px);
+  margin: -11px 0 -5px -10px;
+  width: calc(100% + 5px);
+}
+.detailMainTop .styleGradient {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.detailMainTop .detailMainInfo {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  max-width: 870px;
+  float: none;
+  margin: auto;
+  clear: both;
+}
+.detailMainTop .filmPosterTop {
+  /* padding-left: 0 !important; */
+  padding-right: 0 !important;
+  max-width: 220px;
+}
+.detailMainTop .detailMainInfo .posterMain {
+  border-radius: 4px;
+  padding-top: 147.90697674%;
+  background-position: center, 0 0;
+  background-size: 100% auto;
+  background-repeat: no-repeat, repeat-y;
+}
+.detailMainTop .posterMain .showHover {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s;
+}
+.detailMainTop .posterMain:hover .showHover {
+  visibility: visible;
+  opacity: 1;
+}
+.detailMainTop .posterMain .showHover:hover {
+  visibility: visible;
+  opacity: 1;
+}
+.detailMainTop .posterMain .playTrailerDetail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: 0 0;
+  border: none;
+}
+
+.detailMainTop .infoMain {
+  float: none;
+  clear: both;
+  position: absolute;
+  top: 48%;
+  transform: translateY(-50%);
+  left: 27%;
+  padding: 0 15px;
+}
+.detailMainTop .detailMainInfo1 {
+  color: #e9e9e9;
+}
+.detailMainTop .detailMainInfo2 {
+  color: #e9e9e9;
+  font-size: 28px;
+  font-family: "SF Medium";
+  position: relative;
+}
+.ageType.ageType-general {
+  background-color: #00ac4d;
+  margin-right: 6px;
+  margin-top: 6px;
+  float: left;
+  /* background-color: #fb4226; */
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 0 5px;
+  display: inline-block;
+  text-align: center;
+  min-width: 33px;
+}
+.detailMainTop .circleStar {
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.detailMainTop .circleStar .star {
+  align-items: center;
+  justify-content: center;
+}
+.detailMainTop .circleStar .star img {
+  max-width: 25px;
+}
+.CircularProgressbar-text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 700px) {
+  .detailMainTop .circleStar {
+    display: none;
+  }
+  .detailMainTop .infoMain {
+    position: relative;
+    transform: none;
+    top: 10px;
+    left: 10px;
+  }
+  .detailMainTop .detailMainInfo .posterMain {
+    padding: 180px 180px 180px;
+  }
+  .detailMainTop .posterMain .playTrailerDetail {
+    left: initial;
+  }
+  .detailMainTop .detailMainInfo1 {
+    font-size: 20px;
+  }
+  .detailMainTop .detailMainInfo2 .ageType.ageType-general {
+    margin-right: 35px;
+  }
+  .detailMain {
+    translate: none;
+  }
+}

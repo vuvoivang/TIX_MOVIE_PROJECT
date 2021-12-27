@@ -1,0 +1,33 @@
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 25px;
+  left: 45%;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  color: #fb4226;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .scrollTop {
+    display: none;
+  }
+}

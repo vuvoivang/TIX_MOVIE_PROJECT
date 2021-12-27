@@ -1,0 +1,7 @@
+.row .quantity .no-drop {
+  cursor: no-drop;
+}
+
+.row .quantity .no-drop button {
+  color: #c4c4c4;
+}

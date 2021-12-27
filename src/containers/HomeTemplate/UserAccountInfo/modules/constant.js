@@ -1,0 +1,3 @@
+export const FETCH_USER_INFO_REQUEST = "userReducer/FETCH_USER_INFO_REQUEST";
+export const FETCH_USER_INFO_SUCCESS = "userReducer/FETCH_USER_INFO_SUCCESS";
+export const FETCH_USER_INFO_FAILED = "userReducer/FETCH_USER_INFO_FAILED";

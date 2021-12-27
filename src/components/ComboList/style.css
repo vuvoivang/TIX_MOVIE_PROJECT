@@ -1,0 +1,80 @@
+.combo_container {
+  height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  padding: 15px;
+}
+
+.combo_container::-webkit-scrollbar {
+  display: none;
+}
+
+.combo_container h1 {
+  font-size: 20px;
+  background-color: #efefef;
+  padding: 7px 0;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.combo_container .info_combo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.combo_container .info_combo img {
+  width: 70px;
+  padding-right: 10px;
+}
+
+.combo_container .data_combo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.combo_container .data_combo h5 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.combo_container .data_combo h5 span {
+  font-size: 7px;
+  padding: 3px 6px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.combo_container .data_combo p {
+  color: rgb(0, 210, 0);
+  margin-bottom: 0;
+  padding-left: 17px;
+  font-weight: 700;
+}
+
+.combo_container .quantity {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.combo_container .quantity button {
+  color: red;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 70%;
+  min-width: 30px;
+}
+
+.combo_container .quantity > span {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 0 5px;
+}

@@ -1,0 +1,126 @@
+.slider {
+  margin-top: 70px;
+}
+
+.slider .carousel-indicators {
+  padding-bottom: 5rem;
+}
+
+.slider .carousel-indicators li {
+  background-color: white;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.slider .carousel-indicators .active {
+  background-color: #fb4226;
+}
+
+.slider .carousel-inner .carousel-item {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.slider .carousel-inner .carousel-item::before {
+  content: "";
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, #000000, transparent);
+}
+
+.slider .carousel-inner img {
+  width: 100%;
+  height: 600px;
+}
+
+.slider .carousel-inner .play-trailer {
+  visibility: hidden;
+  margin-bottom: 240px;
+}
+
+.slider .carousel-inner .fa-play {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding-top: 1.3rem;
+  padding-left: 0.4rem;
+  font-size: 1.6rem;
+}
+
+.slider .carousel-inner .fa-play:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.slider .carousel-inner:hover .fa-play {
+  visibility: visible;
+}
+
+.trailer_container {
+  position: relative;
+  overflow: visible !important;
+  width: 1120px !important;
+  height: 630px !important;
+}
+
+.close {
+  position: absolute;
+  top: -25px;
+  z-index: 1;
+  right: -25px;
+}
+
+.responsive_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.carousel-caption {
+  display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  .trailer_container {
+    width: 750px !important;
+    height: 420px !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .trailer_container {
+    width: 560px !important;
+    height: 315px !important;
+  }
+  .slider .carousel-inner img {
+    height: 450px;
+  }
+  .slider .carousel-inner .play-trailer {
+    margin-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .slider .carousel-inner img {
+    height: 300px;
+  }
+}

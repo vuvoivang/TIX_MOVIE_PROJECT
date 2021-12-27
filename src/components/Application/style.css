@@ -1,0 +1,98 @@
+.application {
+  /* background: url("./images/backapp.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.application .container {
+  padding: 100px 0;
+}
+
+.application .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+.application .left h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.application .left button {
+  background-color: #fb4226;
+  padding: 10px 20px;
+  font-size: medium;
+  font-weight: 700;
+  color: white;
+}
+
+.application .left span {
+  padding: 10px 0;
+}
+
+.application .left span a {
+  color: white;
+  text-decoration: underline;
+}
+
+.application .phone {
+  overflow: hidden;
+}
+
+.application .right .slick__slider {
+  position: absolute;
+  padding: 2.5% 26%;
+  top: -1.5%;
+  left: 0;
+  width: 100%;
+}
+
+.application .right .slick-list {
+  border-radius: 30px;
+}
+
+.application .right .slick-track {
+  transform: translate3d(-585px, 0px, 0px);
+}
+
+.application .right .item {
+  width: 195px;
+}
+
+.application .right .item img {
+  width: 100%;
+}
+
+.MuiButton-label {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .application .container {
+    padding: 100px 0 !important;
+  }
+  .application .left {
+    align-items: center;
+    text-align: center;
+    padding: 0 !important;
+  }
+  .application .left h1 {
+    font-size: 28px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .application .slick-list {
+    border-radius: 40px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .application .slick-list {
+    border-radius: 30px !important;
+  }
+}

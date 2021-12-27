@@ -1,0 +1,362 @@
+.schedule {
+  margin-bottom: 50px;
+}
+
+.schedule .container-flex {
+  display: flex;
+}
+
+.schedule .div-background {
+  padding-top: 120px;
+  /* background: url(images/back-news.png); */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.schedule .fade:not(.show) {
+  opacity: 0;
+  display: none !important;
+}
+
+.schedule #myTab1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(238, 238, 238, 0.88);
+}
+
+.schedule #myTab1 li {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+.schedule #myTab1 li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: calc(100% - 40px);
+  transform: translateX(-50%);
+  border-bottom: 1px solid #fff;
+  border-color: rgba(238, 238, 238, 0.88);
+}
+
+.schedule #myTab1 li a:hover,
+.schedule #myTab1 li a:hover img {
+  border: none;
+  opacity: 1;
+}
+
+.schedule #myTab1 li img {
+  width: 50px;
+  opacity: 0.5;
+}
+
+.schedule #myTab1 li .nav-link.active img {
+  opacity: 1;
+}
+
+.schedule #myTab1 li .nav-link.active {
+  border: none;
+}
+
+.schedule #myTab1 .nav-link {
+  padding: 20px;
+}
+
+.schedule #myTabContent1 {
+  height: 705px;
+  width: calc(100% - 92px);
+}
+
+.schedule #myTabContent1 #BHDStar h1 .name {
+  color: #8bc541;
+}
+
+.schedule #myTabContent1 #CGV h1 .name {
+  color: #df0d7a;
+}
+
+.schedule #myTabContent1 #CineStar h1 .name {
+  color: #9c9c9c;
+}
+
+.schedule #myTabContent1 #MegaGS h1 .name {
+  color: #e5a813;
+}
+
+.schedule #myTabContent1 #Galaxy h1 .name {
+  color: #000;
+}
+
+.schedule #myTabContent1 #LotteCinima h1 .name {
+  color: #ca4137;
+}
+
+.schedule #myTabContent1 .tab-pane {
+  height: 100%;
+  display: flex;
+}
+
+.schedule #myTabContent1 .agents {
+  width: 35%;
+  height: 705px;
+  border: 1px solid rgba(238, 238, 238, 0.88);
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  align-content: flex-start;
+}
+.schedule #myTabContent1 .agents::-webkit-scrollbar {
+  width: 4px;
+  background-color: #e8e3e3;
+}
+.schedule #myTabContent1 .agents .nav-item {
+  width: 100%;
+  height: 90px;
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 15px 15px 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0.5;
+  transition: all 0.2s;
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: calc(100% - 40px);
+  transform: translateX(-50%);
+  border-bottom: 1px solid #fff;
+  border-color: rgba(238, 238, 238, 0.88);
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar:hover {
+  opacity: 1;
+  border: none;
+  border-color: transparent;
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar .content {
+  padding-left: 10px;
+  width: calc(100% - 65px);
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar .content h1 {
+  font-size: 14px;
+  margin: 0;
+  color: #000;
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar .content p {
+  font-size: 12px;
+  color: #949494;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  line-height: 14px;
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar .content .detail {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+
+.schedule #myTabContent1 .agents .agent-cinestar.active {
+  opacity: 1;
+  border: none;
+}
+
+.schedule #myTabContent1 #myTabContent2 {
+  width: 65%;
+}
+
+.schedule #myTabContent1 .listMovie {
+  width: 100%;
+  border: 1px solid rgba(238, 238, 238, 0.88);
+  height: 705px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.schedule #myTabContent1 .listMovie::-webkit-scrollbar {
+  width: 4px;
+  background-color: #e8e3e3;
+}
+
+.schedule #myTabContent1 .listMovie::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.schedule #myTabContent1 .listMovie .movie {
+  padding-bottom: 17px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 12px;
+  width: 100%;
+}
+
+.schedule #myTabContent1 .listMovie .movie h1 {
+  width: 100%;
+  font-family: "SF Medium";
+  font-size: 18px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.schedule #myTabContent1 .listMovie .movie a {
+  letter-spacing: 1px;
+  width: calc(25% - 5px);
+  font-family: "SF Medium";
+  font-weight: 600;
+  margin: 0 0px 5px 0px;
+  padding: 5px 0;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(246, 246, 246, 0.5);
+  border-radius: 7px;
+  color: #9b9b9b;
+  border: 1px solid #e4e4e4;
+}
+
+.schedule #myTabContent1 .listMovie .movie a:hover .light {
+  color: red;
+}
+
+.schedule #myTabContent1 .listMovie .movie a .light {
+  font-size: 18px;
+  color: #108f3e;
+}
+
+.schedule #myTabContent1 .listMovie .info {
+  display: flex;
+  cursor: pointer;
+}
+
+.schedule #myTabContent1 .listMovie .info .content {
+  padding-left: 15px;
+}
+
+.schedule #myTabContent1 .listMovie .info .age {
+  background-color: #fb4226;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  min-width: 33px;
+  text-align: center;
+}
+
+.schedule #myTabContent1 .listMovie .info .age-green {
+  background-color: #00ac4d;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  min-width: 33px;
+  text-align: center;
+}
+
+.schedule #myTabContent1 .listMovie .info p {
+  font-size: 16px;
+  display: block;
+  font-family: "SF Medium";
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+}
+
+.schedule #myTabContent1 .listMovie .info span {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+.schedule #myTabContent1 .listMovie .info img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 980px) {
+  .schedule #myTabContent1 {
+    display: block;
+    width: 100%;
+  }
+  .news {
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+  .schedule #myTabContent1 .listMovie .movie {
+    padding-left: 20px;
+  }
+  .schedule #myTabContent1 .listMovie .movie a {
+    width: calc(33% - 2px);
+    font-size: 13px;
+  }
+  .schedule #myTabContent1 .listMovie .movie a .light {
+    font-size: 16px;
+  }
+  .news .container .col-6-new .img-thumb img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .schedule .container-flex {
+    display: block;
+    height: auto;
+  }
+  .schedule #myTab1 {
+    margin-bottom: 40px;
+    padding-left: 40px;
+  }
+  .schedule #myTab2 {
+    margin-bottom: 40px;
+  }
+  .schedule #myTabContent1 {
+    display: block;
+    width: 100%;
+    height: 1450px;
+  }
+  .schedule #myTabContent1 .tab-pane {
+    display: block;
+  }
+  .schedule #myTabContent1 .agents {
+    height: 705px;
+    width: 100%;
+  }
+  .schedule #myTabContent1 #myTabContent2 {
+    display: block;
+    width: 100%;
+  }
+  .schedule #myTabContent1 .listMovie {
+    height: 705px;
+  }
+}

@@ -1,0 +1,60 @@
+.ticketInfo {
+  padding: 30px 0 50px;
+  background-color: rgba(46, 61, 80, 0.75);
+  font-family: "Open Sans";
+}
+.ticketInfo .info {
+  padding: 20px 30px 50px;
+  color: white;
+}
+.ticketInfo .detail {
+  background-color: rgb(245, 246, 247);
+  padding: 20px 20px;
+  color: #101111;
+  margin-bottom: 15px;
+  margin-right: 100px;
+}
+.ticketInfo .detail h3 {
+  font-size: 22px;
+}
+.ticketInfo .name {
+  color: yellow;
+}
+.ticketInfo .MuiTableContainer-root {
+  max-height: 600px;
+}
+.ticketInfo .account-label {
+  color: rgb(243, 7, 7);
+}
+.ticketInfo .info .detail {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
+  .ticketInfo {
+    padding-right: 30px;
+  }
+  .ticketInfo .detail {
+    margin-right: 80px;
+  }
+  .ticketInfo .MuiTableContainer-root {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ticketInfo .detail {
+    margin-right: 20px;
+  }
+  .ticketInfo .MuiTableCell-root {
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ticketInfo .detail h3 {
+    font-size: 16px;
+  }
+  .ticketInfo h2,
+  .ticketInfo h3 {
+    font-size: 24px;
+  }
+}
